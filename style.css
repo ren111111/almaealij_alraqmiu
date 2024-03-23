@@ -1,0 +1,30 @@
+body{text-align: center;}
+/* التنسيقات الخاصة بقسم القائمة */
+.menu{background-color: #f2e7dc;
+     overflow: auto;}
+.menu img{width: 100px;
+          height: auto;
+        align: right;
+    overflow: auto;}
+/*  التنسيقات الخاصة بعناصر القائمة */
+.menu li{background-color: #a9d9d0;
+        padding: 2px;
+        text-align: center;
+        text-shadow:#f2e7dc 2px;
+        margin: 4px;
+        overflow: auto;
+        width: 70px;
+        height: 40px;
+        display: inline-block;}
+
+.menu a{text-decoration: none;
+color: black;}
+/* تغيير اللون للقائمة في حال تم المرور عليها */
+li:hover{background-color: #038c7f;}
+/* تنسيقات صفحة تواصل معانا  */
+.formcont{background-color: #fef6ef;
+          overflow: auto;}
+input[type=text],[type=email],textarea{border-radius: 4px;
+                 border: 2px solid #038c7f;}
+input[type=submit]{border-radius: 4px;
+background-color: #038c7f;}
